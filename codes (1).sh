@@ -15,9 +15,9 @@ conda activate base
 mkdir output
 cd output
 mkdir Qc_report
-fastqc ACBarrie_R1_rep.fastq.gz -o Qc_report
+fastqc Baxter_R1.fastq.gz -o Qc_report
 ls Qc_report
-fastqc ACBarrie_R2_rep.fastq.gz  -o Qc_report
+fastqc Alsen_R1.fastq.gz  -o Qc_report
 ls Qc_report
-fastqc ACBarrie_R2_TRIM.fq.gz -o Qc_report
+fastqc Alsen_R2.fast.gz -o Qc_report
 ls Qc_report
