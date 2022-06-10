@@ -1,3 +1,5 @@
 # HackBio---Geomics-workshop
 # Stage zero
-Write a simple Bash program where your first name and last name are assigned to different variables,  and the script prints out your full name. Write a version where the strings are printed on the same line and a version where the strings are printed on different lines.
+1)Write a simple Bash program where your first name and last name are assigned to different variables,  and the script prints out your full name.
+2) Write a version where the strings are printed on the same line and a version where the strings are printed on different lines.
+3) Write two different stories (Bash story 1 & Bash story 2) in two different notebooks.
