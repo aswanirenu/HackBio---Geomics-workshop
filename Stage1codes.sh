@@ -22,10 +22,11 @@ conda activate base
 #Installation of fastqc
 sudo apt-get install fastqc
 
+#creating the output folder
 mkdir output
 cd output
 
-#downloading the required datasets
+#downloading the required datasets and implementing fastqc
 mkdir Qc_report
 fastqc Baxter_R1.fastq.gz -o Qc_report
 ls Qc_report
