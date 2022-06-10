@@ -8,4 +8,4 @@
 1) Count the number of sequences in DNA.fa.
 2) Write a one-line command in Bash to get the total A, T, G & C counts for all the sequences in the file above.
 3) Set up a conda (anaconda, miniconda or mini forge) environment on your terminal.
-4) Install fastqc on conda environment. Download some sample datasets and implement the software on the downloaded datasets.
+4) Install fastqc on conda environment. Download some sample datasets and implement the software on the downloaded datasets. Note : the output of fastqc is in the output folder
