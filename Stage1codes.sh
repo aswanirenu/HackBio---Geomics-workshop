@@ -26,11 +26,43 @@ sudo apt-get install fastqc
 mkdir output
 cd output
 
-#downloading the required datasets and implementing fastqc
+#downloading the required datasets
+wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/ACBarrie_R1.fastq.gz
+wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/ACBarrie_R2.fastq.gz
+wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Chara_R1.fastq.gz
+wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Chara_R2.fastq.gz
+wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Alsen_R1.fastq.gz
+wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Alsen_R2.fastq.gz
+wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Baxter_R1.fastq.gz
+wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Baxter_R2.fastq.gz
+wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Drysdale_R1.fastq.gz
+wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Drysdale_R2.fastq.gz
+
 mkdir Qc_report
+
+#implementing fastqc
+
 fastqc Baxter_R1.fastq.gz -o Qc_report
 ls Qc_report
 fastqc Alsen_R1.fastq.gz  -o Qc_report
 ls Qc_report
-fastqc Alsen_R2.fast.gz -o Qc_report
+fastqc Alsen_R2.fastq.gz -o Qc_report
 ls Qc_report
+fastqc ACBarrie_R1.fastq.gz -o Qc_report
+ls Qc_report
+fastqc ACBarrie_R2.fastq.gz -o Qc_report
+ls Qc_report
+fastqc Baxter_R2.fastq.gz -o Qc_report
+ls Qc_report
+fastqc Chara_R1.fastq.gz -o Qc_report
+ls Qc_report
+fastqc Chara_R2.fastq.gz -o Qc_report
+ls Qc_report
+fastqc Drysdale_R1.fastq.gz -o Qc_report
+ls Qc_report
+fastqc Drysdale_R2.fastq.gz -o Qc_report
+ls Qc_report
+
+
+
+
